@@ -1,0 +1,7 @@
+main{
+    height: 100vh;
+}
+.dice{
+    height: 120px;
+    border: dotted black 2px
+}
