@@ -8,31 +8,35 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+    <!-- Main container -->
     <main class="container d-flex align-items-center justify-content-center">
         <div class="d-flex flex-column justify-content-center align-items-center">
             <div class="row justify-content-around">
-                <div class="dice col-4 text-center">
+
+                <!-- User dice -->
+                <div class="dice col-4 text-center bg-secondary text-white">
                     <h4>Your dice number is</h4>
                     <h1 id="numUser"></h1>
                 </div>
-                <div class="dice col-4 text-center">
+
+                <!-- Bot dice -->
+                <div class="dice col-4 text-center bg-secondary text-white">
                     <h4>Bot dice number is</h4>
                     <h1 id="numBot"></h1>
                 </div>
             </div>
             
-
+            <!-- Button to play -->
             <h2 id="myButton" class="btn btn-primary rounded mt-4">Play</h2>
-            <h3 class="my-4">And the winner is.......</h3>
-            <h3 id="result"></h3>
+            <h3 class="my-4">Result</h3>
+
+            <!-- JS result -->
+            <h1 id="result" class="rounded p-2"></h1>
 
         </div>
-    
 
-    
     </main>
-    
-
 
     <!-- Link JS -->
     <script src="js/main.js"></script>
